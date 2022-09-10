@@ -13,7 +13,7 @@
  *  INCLUDES
  *********************************************************************************************************************/
 #include "Std_Types.h"
-#include "IntCrtl.h"
+#include "IntCtrl.h"
 #include "Mcu_Hw.h"
 
 /**********************************************************************************************************************
@@ -52,7 +52,7 @@
 * \Parameters (out): None                                                      
 * \Return value:   : None
 *******************************************************************************/
-void IntCrtl_Init(void)
+void IntCtrl_Init(void)
 {
 
 	/*TODO Configure Grouping\SubGrouping System in APINT register in SCB*/
